@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.CarouselPage1"
+             StyleClass="singw">
+        <ContentPage.Resources>
+            <StyleSheet Source="/mystyles.css" />
+        </ContentPage.Resources>
+    <StackLayout>
+        <Button Text="BUTTON" StyleClass="firstButton" Margin="100,10,100,0"/>
+        <Button Text="BUTTON" StyleClass="firstButton2" Margin="100,10,100,0"/>
+        <Button Text="BUTTON" StyleClass="firstButton3" Margin="100,10,100,0"/>
+        <Button Text="BUTTON" StyleClass="firstButton4" Margin="100,10,100,0"/>
+        <Button Text="LARGE" StyleClass="firstButton5" Margin="100,10,100,0" HeightRequest="70"/>
+        <Button Text="NORMAL" StyleClass="firstButton5" Margin="100,5,100,0" HeightRequest="50"/>
+        <Button Text="SMALL" StyleClass="firstButton5" Margin="100,5,100,0" HeightRequest="40"/>
+        <Button Text="LARGE" StyleClass="firstButton6" Margin="100,10,100,0" HeightRequest="70"/>
+        <Button Text="NORMAL" StyleClass="firstButton6" Margin="100,5,100,0" HeightRequest="50"/>
+        <Button Text="SMALL" StyleClass="firstButton6" Margin="100,5,100,0" HeightRequest="40"/>
+
+    </StackLayout>
+        
+    
+
+</ContentPage>

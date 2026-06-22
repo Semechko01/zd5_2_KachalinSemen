@@ -1,0 +1,54 @@
+﻿
+^contentpage {
+    background-color: black;
+}
+label {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.welcome {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    font-family:Verdana;
+}
+.rememb {
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.username {
+    font-size: medium;
+    color: black;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 60;
+}
+.password {
+    font-size: medium;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 60;
+}
+.singw {
+    font-size: large;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-family: Verdana;
+    height: 60;
+}
+.chekbox {
+    background-color: transparent;
+    color:greenyellow;
+}
+stacklayout label {
+    font-family:Verdana;
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.CarouselPage3"
+             StyleClass="singw">
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+    <StackLayout>
+        <Switch IsEnabled="True" OnColor="Green" ThumbColor="white" Margin="110,30,250,10" IsToggled="True"/>
+        <Switch IsEnabled="True" OnColor="Green" ThumbColor="white" Margin="230,-42,130,10" IsToggled="False"/>
+        <Switch IsEnabled="True" OnColor="Green" ThumbColor="white" Margin="110,00,250,10" IsToggled="True"/>
+        <Switch IsEnabled="True" OnColor="Green" ThumbColor="white" Margin="230,-42,130,10" IsToggled="False"/>
+        <Switch IsEnabled="True" OnColor="Green" ThumbColor="white" Margin="110,00,250,10" IsToggled="True"/>
+        <Switch IsEnabled="True" OnColor="Green" ThumbColor="white" Margin="230,-42,130,10" IsToggled="False"/>
+        <RadioButton Margin="130,10,10,10" StyleClass="rediobutton" IsChecked="True"/>
+        <RadioButton Margin="130,-10,10,10" StyleClass="rediobutton"/>
+        <CheckBox  Margin="230,-85,10,10" StyleClass="chekbox" IsChecked="True"/>
+        <CheckBox  Margin="230,-10,10,10" StyleClass="chekbox" IsChecked="False"/>
+    </StackLayout>
+</ContentPage>

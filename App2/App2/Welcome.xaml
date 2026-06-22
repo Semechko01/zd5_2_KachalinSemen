@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Welcome">
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles2.css"/>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="Welcome" Margin ="140,200,10,10" StyleClass="welcome"/>
+        <Entry x:Name ="Logintxt" Placeholder="Username" PlaceholderColor="Black" Margin="10,10,10,10" StyleClass="username" MaxLength="20"/>
+        <Entry x:Name ="Passtxt" Placeholder="Password" PlaceholderColor="Black" Margin="10,-15,10,10" StyleClass="password" IsPassword="True"  MaxLength="20"/>
+        <Button Text="Sing in" Margin="10,30,10,10" StyleClass="singw" Clicked="ButtonClicked"/>
+        <CheckBox Margin="10,10,300,10" StyleClass="chekbox"/>
+        <Label Text="Remember me?" Margin="50,-45,10,10" StyleClass="rememb"/>
+    </StackLayout>
+    
+</ContentPage>

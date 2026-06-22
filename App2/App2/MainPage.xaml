@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:App2"
+            x:Class="App2.MainPage"
+             Title="Welcome"
+            x:Name="Base"
+            StyleClass="singw">
+    <local:CarouselPage1 Title="Кнопки"/>
+
+    <local:CarouselPage2 Title="Слайдер и dropdown"/>
+    
+    <local:CarouselPage3 Title="Переключатели"/>
+
+    <local:Page1 Title="Калькулятор"/>
+
+
+</CarouselPage>
