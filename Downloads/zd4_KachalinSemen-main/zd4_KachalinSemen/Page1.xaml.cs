@@ -78,14 +78,14 @@ namespace zd4_KachalinSemen
             }
             if (MyPicker.SelectedIndex == 0)
             {
-                DisplayAlert("Information", $"Сумма кредита: {money}\nСрок (месяцев): {money2}\nДанное значение слайдера: {Math.Round(SliderPr.Value)}\nМаксимальное значение слайдера: {SliderPr.Maximum}", "Nigger");
+                DisplayAlert("Information", $"Сумма кредита: {money}\nСрок (месяцев): {money2}\nДанное значение слайдера: {Math.Round(SliderPr.Value)}\nМаксимальное значение слайдера: {SliderPr.Maximum}", "Close");
                 LABEL1.Text = $"Ежемесячный платеж: {money / money2 + (((Math.Round(SliderPr.Value) / 100) * (money / money2)))}";
                 LABEL2.Text = $"Общая сумма: {Convert.ToInt32(SumCredit.Text) + ((Math.Round(SliderPr.Value) / 100) * money)}";
                 LABEL3.Text = $"Переплата: {Math.Abs((money + ((Math.Round(SliderPr.Value) / 100) * money) - money))}";
             }
             else if(MyPicker.SelectedIndex == 1)
             {
-                DisplayAlert("Information", $"Сумма кредита: {money}\nСрок (месяцев): {money2}\nДанное значение слайдера: {Math.Round(SliderPr.Value)}\nМаксимальное значение слайдера: {SliderPr.Maximum}", "Nigger");
+                DisplayAlert("Information", $"Сумма кредита: {money}\nСрок (месяцев): {money2}\nДанное значение слайдера: {Math.Round(SliderPr.Value)}\nМаксимальное значение слайдера: {SliderPr.Maximum}", "Close");
                 LABEL1.Text = "Ежемесячный платеж: ...";
                 LABEL2.Text = $"Общая сумма: {money + ((Math.Round(SliderPr.Value) / 100) * money)}";
                 LABEL3.Text = $"Переплата: {Math.Abs((money + ((Math.Round(SliderPr.Value) / 100) * money) - money))}";
